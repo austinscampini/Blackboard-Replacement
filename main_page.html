@@ -1,0 +1,175 @@
+<!Doctype html>
+<html>
+<style>
+main div form {
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    width: 92%;
+    border: solid rgb(153, 153, 153);
+    background-color: rgb(229,229,229);
+    color:#fff;
+    padding: 10px;
+}
+
+.header4Sub {
+	border: 1px solid black;
+    background-color: rgb(204, 65, 37);
+    padding: 10px;
+ 	  margin-top: 25px;
+    width: 70%;
+    color: white;
+    font-size: 110%;
+}
+
+.subform1 {
+	 border: 1px solid black;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 25px;
+    width: 70%;
+    color: black;
+}
+
+.subform {
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 25px;
+    width: 70%;
+    color: black;
+}
+
+.button {
+    background-color: #b6c4c3; 
+    border: none;
+    color: white;
+    padding: 5px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 0px 0px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.button1 {
+    background-color: #d0dbda;
+    color: black;
+    border: 2px solid #aaafaf;
+}
+
+.button1:hover {background-color: #e7e7e7;}
+
+.hyperlinkColor {
+  color: #43b9cc;
+  font-weight:bold;
+}
+</style>
+
+
+  <head>
+    <title> My USC Page </title>
+    <link rel="stylesheet" href="/style/main.css">
+  </head>
+  <body bgcolor="#b3b3b3">
+    <div class="alert">
+      <p> This is an Alert! </p>
+    </div>
+    <header>
+      <div id="menu">
+        <div class="static">
+          <img class="avatar" src="/img/avatar.gif">
+          <p> Student Name </p>
+        </div>
+        <div class="dropdown">
+         <div class="left">
+            <ul>
+              <li> <a href="/student_info.html"> <img src="/img/avatar.gif" alt="Avatar"> </a> </li>
+              <li> <a href="/main_page.html"> <img src="/img/spreadsheet.svg" alt="Announcements" > </a> </li>
+            </ul>
+          </div>
+          <div class="right">
+            <div class="buttons">
+              <ul>
+                <li> <b> Announcements </b> </li>
+                <li> <a href="#">CSCE 416</a> </li>
+                <li> <a href="#">CSCE 572</a> </li>
+                <li> <a href="#">CSCE 490</a> </li>
+            </div>
+            <div class="links">
+              <ul>
+                <li> <b> Links: </b> </li>
+                <li> <a href="#">Student Email</a> </li>
+                <li> <a href="#">My USC</a> </li>
+                <li> <a href="#">Help</a> </li>
+              </ul>
+              </ul>
+            </div>
+            <div class="logout">
+              <a href="/index.html"> Logout </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="logo">
+      
+      </div>
+      <div id="nav">
+        <ul>
+          <li> <a href="/course_page.html" onclick()>Courses</a> </li>
+          <li> <a href="/grade_page.html" onclick()>Grades</a> </li>
+          <li> <a class="selected" href="/main_page.html" onclick()>My USC</a> </li>
+          <li> <a href="/tools_page.html" onclick()>Tools</a> </li>
+          <li> <a href="/student_info.html" onclick()>Student Info</a> </li>
+        </ul>
+      </div>
+      <div id="search">
+        <form action="/search.html">
+          <input type="text">
+          <input type="submit" value="Search">
+        </form>
+      </div>
+    </header>
+    <br><br>
+    <main>
+<center>
+  <div>
+      <form action="/main_page.html">
+
+      <div class="header4Sub">
+          My Announcements
+      </div>
+
+        <div class="subform">
+          <p style="font-size: 100%;">Manual Grade of <STRONG>Test #1</STRONG> Updated in <a class="hyperlinkColor" href="#">Electronics (ELCT371-001-FALL-2018)</a><button class="button button1" style="margin-left: 5%;margin-right: 2%;">View</button><button class="button button1" style="margin-right: 2%;">Dismiss</button> 5 days ago</p><hr>
+
+          <p style="font-size: 100%;">Content <STRONG>Practice Exam #1</STRONG> Available in <a class="hyperlinkColor" href="#">Applied Linear Algebra (MATH344-002-FALL-2018)</a><button class="button button1" style="margin-left: 5%;margin-right: 2%;">Open</button><button class="button button1" style="margin-right: 2%;">Dismiss</button> 6 days ago</p><hr>
+
+          <p style="font-size: 100%;">Manual Grade of <STRONG>Test #2</STRONG> Updated in <a class="hyperlinkColor" href="#">Business Writing (ENGL463-E01-FALL-2018)</a><button class="button button1" style="margin-left: 5%;margin-right: 2%;">View</button><button class="button button1" style="margin-right: 2%;">Dismiss</button> 6 days ago</p><hr>
+          
+          <button class="button button1" style="margin-left: 80%; margin-top: 1%; margin-bottom: 1%">Show all</button>
+        </div>
+
+        <div class="header4Sub">
+          Upcoming Assignments and Tasks
+      </div>
+
+        <div class="subform">
+          <p style="font-size: 100%;"><STRONG>HW5</STRONG> in <a class="hyperlinkColor" href="#">Electronics (ELCT371-001-FALL-2018)</a><button class="button button1" style="margin-left: 5%;margin-right: 2%;">Upload</button><button class="button button1" style="margin-right: 2%;">View</button> 4 days ago</p><hr>
+
+          <p style="font-size: 100%;"><STRONG>Quiz 5 (Finite State Machines)</STRONG> in <a class="hyperlinkColor" href="#">Advanced Digital Design (CSCE611-001-FALL-2018)</a><button class="button button1" style="margin-left: 5%;margin-right: 2%;">Take Quiz</button><button class="button button1" style="margin-right: 2%;">View</button> 6 days ago</p><hr>
+
+          <p style="font-size: 100%;"><STRONG>Quiz 6 (Finite State Machines)</STRONG> in <a class="hyperlinkColor" href="#">Advanced Digital Design (CSCE611-001-FALL-2018)</a><button class="button button1" style="margin-left: 5%;margin-right: 2%;">Take Quiz</button><button class="button button1" style="margin-right: 2%;">View</button> 12 days ago</p><hr>
+
+          <button class="button button1" style="margin-left: 80%; margin-top: 1%; margin-bottom: 1%">View all</button>
+        </div>
+
+    </form>
+  </div>
+</center>
+</main>
+  </body>
+</html>

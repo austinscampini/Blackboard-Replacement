@@ -1,0 +1,159 @@
+<!Doctype html>
+<html>
+<style>
+main div form {
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    width: 95%;
+    height:1000px;
+    border: solid rgb(153, 153, 153);
+    background-color: rgb(229,229,229);
+    color:#fff;
+    padding: 10px;
+}
+
+.header4Sub {
+	border: 1px solid black;
+    background-color: rgb(204, 65, 37);
+    padding: 10px;
+ 	margin-top: 25px;
+    width: 60%;
+    color: white;
+}
+
+.subform1 {
+	border: 1px solid black;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 25px;
+    width: 60%;
+    color: black;
+}
+
+.subform {
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 25px;
+    width: 60%;
+    color: black;
+}
+</style>
+
+
+  <head>
+    <title> Index Page </title>
+    <link rel="stylesheet" href="/style/main.css">
+  </head>
+  <body>
+    <div class="alert">
+      <p> This is an Alert! </p>
+    </div>
+    <header>
+      <div id="menu">
+        <div class="static">
+          <img class="avatar" src="/img/avatar.gif">
+          <p> Student Name </p>
+        </div>
+        <div class="dropdown">
+          <div class="left">
+            <ul>
+              <li> <a href="#"> <img src="/img/avatar.gif" alt="Avatar"> </a> </li>
+              <li> <a href="#"> <img src="/img/spreadsheet.svg" alt="Announcements" > </a> </li>
+              <li> <a href="#"> <img src="/img/calendar.svg" alt="calendar"> </a> </li>
+              <li> <a href="#"> <img src="/img/chat.svg" alt="chat"> </a> </li>
+              <li> Thing 1 </li>
+              <li> Thing 1 </li>
+              <li> Thing 1 </li>
+              <li> Thing 1 </li>
+            </ul>
+          </div>
+          <div class="right">
+            <div class="buttons">
+              <ul>
+                <li> <a href="#">Thing 1</a> </li>
+                <li> <a href="#">Thing 1</a> </li>
+                <li> <a href="#">Thing 1</a> </li>
+                <li> <a href="#">Thing 1</a> </li>
+              </ul>
+            </div>
+            <div class="links">
+              <ul>
+                <li> <a href="#">Thing 1</a> </li>
+                <li> <a href="#">Thing 1</a> </li>
+                <li> <a href="#">Thing 1</a> </li>
+                <li> <a href="#">Thing !</a> </li>
+              </ul>
+            </div>
+            <div class="logout">
+              <a href="#"> Logout </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="logo">
+      
+      </div>
+      <div id="nav">
+        <ul>
+          <li> <a class="selected" href="#">Courses</a> </li>
+          <li> <a href="#">Grades</a> </li>
+          <li> <a href="#">My USC</a> </li>
+          <li> <a href="#">Tools</a> </li>
+          <li> <a href="#">Student Info</a> </li>
+        </ul>
+      </div>
+      <div id="search">
+        <form action="/search.html">
+          <input type="text">
+          <input type="submit" value="Search">
+        </form>
+      </div>
+    </header>
+<main>
+<center>
+	<div>
+  		<form action="/action_page.php">
+
+  			<div class="header4Sub">
+    			Login Here
+			</div>
+
+  			<div class="subform1">
+  				<br>
+    			Username:
+    			<input type="text" name="Username" maxlength="12" minlength="5" placeholder="Username ...."><br><br>
+    			
+    			Password:
+    			<input type="text" name="lastname" maxlength="12" minlength="5" placeholder="Password ...."><br><br>
+    			<input type="submit" value="Login"><br>
+
+    			<p style="font-size: 100%">Remember, passwords expire every 6 months. If you need to reset yours you can do so at <a href="http://my.sc.edu">my.sc.edu</a></p><br>
+
+			</div>
+
+			<div class="header4Sub">
+    			Blackboard Alerts!
+			</div>
+
+    		<div class="subform">
+    			<p style="font-size: 120%; color: Red">Latest Alert: </p>
+    			<p style="font-size: 120%">Blackboard will be unavailable from Saturday Oct. 13th, 2018 @ 6:00 p.m. to Sunday Oct. 14th, 2018 @ 8:00 a.m.</p><br>
+    		</div>
+
+    		<div class="header4Sub">
+    			Troubleshooting
+			</div>
+
+    		<div class="subform">
+    			<p style="font-size: 120%; color: Red">Latest Alert: </p>
+    			<p style="font-size: 120%">Having trouble logging in or need technology help? <a href="https://sc.edu/ithelp">Click Here</a> for more information!  </p><br>
+    		</div>
+
+		</form>
+	</div>
+</center>
+</main>
+  </body>
+</html>
