@@ -1,4 +1,4 @@
-# Blackboard Re-write
+# Blackboard Re-Write
 Blackboard Functional Prototype
 
 ## Note:
