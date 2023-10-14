@@ -1,4 +1,4 @@
-# csce576_group6
+# Blackboard Re-write
 Blackboard Functional Prototype
 
 ## Note:
